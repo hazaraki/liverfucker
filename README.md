@@ -1,3 +1,3 @@
 # Liverfucker
 
-Copyright © Hazar Aki 2013
+Copyright © 2013 Hazar Aki 
