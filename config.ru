@@ -2,9 +2,6 @@ use Rack::Static,
   :urls => ["/images", "/js", "/stylesheets"],
   :root => "public"
 
-require 'sass/plugin/rack'
-  use Sass::Plugin::Rack
-
 run lambda { |env|
   [
     200, 
@@ -15,3 +12,4 @@ run lambda { |env|
     File.open('public/index.html', File::RDONLY)
   ]
 }
+

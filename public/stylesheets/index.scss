@@ -1,0 +1,52 @@
+$grey: #323132;
+$pink: #ec008b;
+@mixin font {
+	font-family: "Helvetica", "Sans-serif";
+}
+
+body {
+	@include font;
+}
+
+.grey {
+	background-color: $grey;
+}
+
+.forms {
+	padding: 20px 0px 20px 0px;
+	max-width:80%
+}
+
+.question {
+	text-transform: uppercase;
+	color: #fff;
+	font-size:48px;
+}
+
+.field {
+	@include font;
+	font-size:36px;
+	color: $pink;
+	text-align: right;
+}
+
+.btn-cont {
+	background-color: #fff;
+	height:200px;
+}
+
+.button {
+	margin-left: 800px;
+	color: #fff;
+	background-color: $pink;
+	text-decoration: none;
+	font-size: 36px;
+	border: 12px solid #fff;
+	padding: 20px 20px 20px 20px;
+}
+
+.answer {
+	background-color: #fff;
+	color: $grey;
+	text-transform:uppercase;
+}
