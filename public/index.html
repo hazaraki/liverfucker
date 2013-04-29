@@ -4,21 +4,10 @@
 
 <div id="response"></div>
 
-<input type="submit" onclick="answer()" href="#" id="button">Answer</input> 
+<input type="submit" onclick="answer" href="#" id="button" value="Answer"></input> 
 
-<script type="text/javascript">
-  function answer() {  
-    
-    var response = new Array (); 
-	  response[0] = "test-0";
-	  response[1] = "test-1";
-	  response[2] = "test-2";
+<script type="text/javascript" src="/js/randomizer.js"></script>
 
-	var i = Math.floor(Math.random()*3);
 
-	document.getElementByID("response").innerText = response[i]; 
-
-	};
-</script>
 </body>
 </html>
