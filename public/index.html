@@ -5,12 +5,12 @@
 	<link rel="stylesheet" type="text/css" href="/stylesheets/index.css">
 	<script type="text/javascript" src="/js/questions.js"></script>
 </head>
-<body>
+<body onLoad="loadquestions()">
   <div class="grey">
 	<div class="forms">
-	  <h1 id="questionA" class="question" onLoad="questionA()"></h1>
+	  <h1 id="questionA" class="question" ></h1>
 	  <input type="text" class="field"></input>
-	  <h1 id="questionB" class="question" onLoad="questionB()"></h1>
+	  <h1 id="questionB" class="question"></h1>
 	  <input type="text" class="field" style="margin-bottom:80px;"></input>
 	</div>
   </div>	
@@ -19,6 +19,6 @@
 		<h1 id="response">
 	</h1>
 </div>
-<script type="text/javascript" src="/js/questions.js"></script>
+<script type="text/javascript" src="/js/answers.js"></script>
 </body>
 </html>
