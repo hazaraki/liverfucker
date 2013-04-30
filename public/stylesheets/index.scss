@@ -1,11 +1,12 @@
 $grey: #323132;
 $pink: #ec008b;
 @mixin font {
-	font-family: "Helvetica", "Sans-serif";
+	font-family: "Helvetica Neue", "Helvetica", "Arial", "Sans-serif";
 }
 
 body {
 	@include font;
+	margin: 0px 0px 0px 0px;
 }
 
 .grey {
@@ -13,8 +14,8 @@ body {
 }
 
 .forms {
-	padding: 20px 0px 20px 0px;
-	max-width:80%
+	padding: 15px 15px 15px 15px;
+	text-align:center;
 }
 
 .question {
@@ -25,28 +26,30 @@ body {
 
 .field {
 	@include font;
-	font-size:36px;
+	width: 75%;
+	font-size: 36px;
 	color: $pink;
 	text-align: right;
 }
 
 .btn-cont {
 	background-color: #fff;
-	height:200px;
+	height:100px;
 }
 
 .button {
-	margin-left: 800px;
+	margin-left: 70%;
 	color: #fff;
 	background-color: $pink;
 	text-decoration: none;
 	font-size: 36px;
 	border: 12px solid #fff;
 	padding: 20px 20px 20px 20px;
+	min-width: 210px;
 }
 
-.answer {
-	background-color: #fff;
+.response {
 	color: $grey;
 	text-transform:uppercase;
+	text-align:center;
 }
