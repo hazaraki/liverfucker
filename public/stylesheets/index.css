@@ -21,6 +21,9 @@ body {
   color: #ec008b;
   text-align: right; }
 
+.field2 {
+  margin-bottom: 50px; }
+
 .btn-cont {
   background-color: #fff;
   height: 100px; }
@@ -38,4 +41,5 @@ body {
 .response {
   color: #323132;
   text-transform: uppercase;
-  text-align: center; }
+  text-align: center;
+  font-size: 48px; }
