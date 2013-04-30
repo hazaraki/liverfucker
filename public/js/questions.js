@@ -1,6 +1,4 @@
-
-function loadquestions() {
-
+$(function() {
 	var questionA = new Array ();
 			questionA[0] = "It’s been a hell of a day, I just need a fucking";
 			questionA[1] = "I’m craving a giant fucking";
@@ -21,10 +19,8 @@ function loadquestions() {
 			questionA[16] = "It would be epic to wash this down with a";
 			questionA[17] = "I wanna get fucking plastered on";
 	
-	function questionA() {
 		var i = Math.floor(Math.random()*18)
-		document.getElementById("questionA").innerText = questionA[i]; 
-	};
+		$('#questionA').html(questionA[i])
 	
 	var questionB = new Array ();
 			questionB[0] = "If only I wasn’t jacked up on";
@@ -37,8 +33,6 @@ function loadquestions() {
 			questionB[7] = "If only I wasn't so out of it on";
 			questionB[8] = "But I'm all fucking amped on";
 	
-	function questionB() {
 		var i = Math.floor(Math.random()*9)
-		document.getElementById("questionB").innerText = questionB[i]; 
-	};
-};
+		$('#questionB').html(questionB[i])
+});

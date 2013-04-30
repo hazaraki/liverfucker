@@ -9,13 +9,13 @@ var response = new Array ();
 	  response[7] = "In your dreams!";
 	  response[8] = "Fuck no!";
 	  response[9] = "Don’t be an idiot!";
-	  response[11] = "Not on Bieber’s life!";
-	  response[12] = "You must be trippin’!";
-	  response[13] = "And…..No";
-	  response[14] = "Um….No.";
-	  response[15] = "Dream on!";
+	  response[10] = "Not on Bieber’s life!";
+	  response[11] = "You must be trippin’!";
+	  response[12] = "And…..No";
+	  response[13] = "Um….No.";
+	  response[14] = "Dream on!";
 
 function answer() {
-	var i = Math.floor(Math.random()*16)
+	var i = Math.floor(Math.random()*15)
 	document.getElementById("response").innerText = response[i]; 
 };
