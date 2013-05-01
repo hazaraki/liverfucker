@@ -6,18 +6,32 @@
 	<link rel="stylesheet" type="text/css" href="/stylesheets/index.css">
 </head>
 <body>
+	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+	<div id="fb-root"></div>
   <div class="grey">
 	<div class="forms">
 	  <div><h1 id="questionA" class="question" ></h1>
-	    <input type="text" class="field"></input>
+	    <input type="text" class="field" placeholder="pbr, jack daniels, red wine..."></input>
 	    <h1 id="questionB" class="question"></h1>
-	    <input type="text" class="field field2"></input>
-	  </div>
+	    <input type="text" class="field field2" placeholder="nyquil, acid, xanax..."></input>
     </div>
+</div>
   </div>	
   <div class="btn-cont">
-	<a href="#" id="button" class="button" onclick="answer()">should I?</a>
-	<h1 id="response" class="response"></h1>
+  	<div class="social">
+		  <div class="fb-like" data-href="http://liverfucker.herokuapp.com" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false"></div>
+  	  <a href="https://twitter.com/share" class="twitter-share-button" data-text="Check out Liverfucker to find out what you can drink!" data-via="liverfucker" data-related="liverfucker" data-count="none" data-hashtags="liverfucker">Tweet</a>
+  </div>
+  <a href="#" id="button" class="button" onClick="answer()">Should I?</a>
+  <h1 id="response" class="response"></h1>
+  </div>
   </div>
 <script type="text/javascript" src="/js/jquery.js"></script>
 <script type="text/javascript" src="/js/questions.js"></script>

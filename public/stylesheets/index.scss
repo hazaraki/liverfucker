@@ -1,10 +1,16 @@
 $grey: #323132;
 $pink: #ec008b;
+$lightpink: #FAA8C3; 
 @mixin font {
 	font-family: "Helvetica Neue", "Helvetica", "Arial", "Sans-serif";
 }
 
-body {
+/* Basic resets */
+
+* { 
+	-moz-box-sizing: border-box; 
+	-webkit-box-sizing: border-box; 
+	box-sizing: border-box; 
 	@include font;
 	margin: 0px 0px 0px 0px;
 }
@@ -14,7 +20,7 @@ body {
 }
 
 .forms {
-	padding: 15px 15px 15px 15px;
+	padding: 50px 15px 15px 15px;
 	text-align:center;
 }
 
@@ -22,6 +28,7 @@ body {
 	text-transform: uppercase;
 	color: #fff;
 	font-size:48px;
+	padding: 50px 0px 0px 0px;
 }
 
 .field {
@@ -32,17 +39,28 @@ body {
 	text-align: right;
 }
 
+.field::-webkit-input-placeholder { /* WebKit browsers */ color: $lightpink; font-family: "Helvetica Neue", "Helvetica", "Arial", "Sans-serif"; font-style:italic;  }
+.field:-moz-placeholder { /* Mozilla Firefox 4 to 18 */color: $lightpink; font-family: "Helvetica Neue", "Helvetica", "Arial", "Sans-serif"; font-style:italic; }
+.field::-moz-placeholder { /* Mozilla Firefox 19+ */ color: $lightpink; font-family: "Helvetica Neue", "Helvetica", "Arial", "Sans-serif"; font-style:italic; }
+.field:-ms-input-placeholder { /* Internet Explorer 10+ */ color: $lightpink; font-family: "Helvetica Neue", "Helvetica", "Arial", "Sans-serif"; font-style:italic; }
+
+
+
+
 .field2 {
 	margin-bottom:50px;
 }
 
 .btn-cont {
 	background-color: #fff;
-	height:100px;
+}
+
+.social {
+	float:left;
+	margin:15px 0px 0px 15px;
 }
 
 .button {
-	margin-left: 70%;
 	color: #fff;
 	background-color: $pink;
 	text-decoration: none;
@@ -50,6 +68,11 @@ body {
 	border: 12px solid #fff;
 	padding: 20px 20px 20px 20px;
 	min-width: 210px;
+	margin:0px 0px 0px 54%;
+}
+
+.button:hover{
+	background-color:#E00286;
 }
 
 .response {
@@ -57,5 +80,5 @@ body {
 	text-transform:uppercase;
 	text-align:center;
 	font-size:48px;
-
+	padding: 50px 15px 15px 15px
 }

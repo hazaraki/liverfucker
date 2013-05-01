@@ -1,4 +1,8 @@
-body {
+/* Basic resets */
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
   font-family: "Helvetica Neue", "Helvetica", "Arial", "Sans-serif";
   margin: 0px 0px 0px 0px; }
 
@@ -6,13 +10,14 @@ body {
   background-color: #323132; }
 
 .forms {
-  padding: 15px 15px 15px 15px;
+  padding: 50px 15px 15px 15px;
   text-align: center; }
 
 .question {
   text-transform: uppercase;
   color: #fff;
-  font-size: 48px; }
+  font-size: 48px;
+  padding: 50px 0px 0px 0px; }
 
 .field {
   font-family: "Helvetica Neue", "Helvetica", "Arial", "Sans-serif";
@@ -21,25 +26,56 @@ body {
   color: #ec008b;
   text-align: right; }
 
+.field::-webkit-input-placeholder {
+  /* WebKit browsers */
+  color: #faa8c3;
+  font-family: "Helvetica Neue", "Helvetica", "Arial", "Sans-serif";
+  font-style: italic; }
+
+.field:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #faa8c3;
+  font-family: "Helvetica Neue", "Helvetica", "Arial", "Sans-serif";
+  font-style: italic; }
+
+.field::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #faa8c3;
+  font-family: "Helvetica Neue", "Helvetica", "Arial", "Sans-serif";
+  font-style: italic; }
+
+.field:-ms-input-placeholder {
+  /* Internet Explorer 10+ */
+  color: #faa8c3;
+  font-family: "Helvetica Neue", "Helvetica", "Arial", "Sans-serif";
+  font-style: italic; }
+
 .field2 {
   margin-bottom: 50px; }
 
 .btn-cont {
-  background-color: #fff;
-  height: 100px; }
+  background-color: #fff; }
+
+.social {
+  float: left;
+  margin: 15px 0px 0px 15px; }
 
 .button {
-  margin-left: 70%;
   color: #fff;
   background-color: #ec008b;
   text-decoration: none;
   font-size: 36px;
   border: 12px solid #fff;
   padding: 20px 20px 20px 20px;
-  min-width: 210px; }
+  min-width: 210px;
+  margin: 0px 0px 0px 54%; }
+
+.button:hover {
+  background-color: #E00286; }
 
 .response {
   color: #323132;
   text-transform: uppercase;
   text-align: center;
-  font-size: 48px; }
+  font-size: 48px;
+  padding: 50px 15px 15px 15px; }

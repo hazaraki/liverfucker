@@ -16,6 +16,17 @@ var response = new Array ();
 	  response[14] = "Dream on!";
 
 function answer() {
+
+	if (document.getElementById("questionA").value == ''){          
+		document.getElementById("response").innerText = 'Tell us what you want to drink!'; 
+	}
+	
+	else if (document.getElementById("questionB").value == '') {
+		document.getElementById("response").innerText = 'Tell us what you're on!'; 
+	}
+
+	else {
 	var i = Math.floor(Math.random()*15)
 	document.getElementById("response").innerText = response[i]; 
+	}
 };
