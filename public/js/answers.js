@@ -22,7 +22,7 @@ function answer() {
 	}
 	
 	else if (document.getElementById("questionB").value == '') {
-		document.getElementById("response").innerText = 'Tell us what you're on!'; 
+		document.getElementById("response").innerText = 'Tell us what you are taking!'; 
 	}
 
 	else {
