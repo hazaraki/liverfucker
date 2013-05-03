@@ -17,16 +17,16 @@ var response = new Array ();
 
 function answer() {
 
-	if (document.getElementById("questionA").value == ''){          
+	if (!document.getElementById("questionA").value){          
 		document.getElementById("response").innerText = 'Tell us what you want to drink!'; 
 	}
 	
-	else if (document.getElementById("questionB").value == '') {
+	else if (!document.getElementById("questionB").value) {
 		document.getElementById("response").innerText = 'Tell us what you are taking!'; 
 	}
 
 	else {
-	var i = Math.floor(Math.random()*15)
-	document.getElementById("response").innerText = response[i]; 
+		var i = Math.floor(Math.random()*response.length);
+		document.getElementById("response").innerText = response[i]; 
 	}
 };
