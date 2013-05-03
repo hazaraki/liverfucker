@@ -18,8 +18,25 @@ $(function() {
 			questionA[15] = "I would die to go on a bender with several";
 			questionA[16] = "It would be epic to wash this down with a";
 			questionA[17] = "I wanna get fucking plastered on";
+	  		questionA[18] = "";
+	  		questionA[19] = "";
+	  		questionA[20] = "";
+	  		questionA[21] = "";
+	  		questionA[22] = "";
+	  		questionA[23] = "";
+	  		questionA[24] = "";
+	  		questionA[25] = "";
+	  		questionA[26] = "";
+	  		questionA[27] = "";
+	  		questionA[28] = "";
+	  		questionA[29] = "";
+	  		questionA[30] = "";
+	  		questionA[31] = "";
+	  		questionA[32] = "";
+	  		questionA[33] = "";
+	  		questionA[34] = "";
 	
-		var i = Math.floor(Math.random()*18)
+		var i = Math.floor(Math.random()questionA.length)
 		$('#questionA').html(questionA[i])
 	
 	var questionB = new Array ();
@@ -33,6 +50,6 @@ $(function() {
 			questionB[7] = "If only I wasn't so out of it on";
 			questionB[8] = "But I'm all fucking amped on";
 	
-		var i = Math.floor(Math.random()*9)
+		var i = Math.floor(Math.random()*questionB.length)
 		$('#questionB').html(questionB[i])
 });
