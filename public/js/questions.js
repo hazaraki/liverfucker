@@ -1,4 +1,5 @@
 $(function() {
+
 	var questionA = new Array ();
 			questionA[0] = "It’s been a hell of a day, I just need a fucking";
 			questionA[1] = "I’m craving a giant fucking";
