@@ -10,7 +10,7 @@
   background-color: #323132; }
 
 .forms {
-  padding: 50px 15px 15px 15px;
+  padding: 50px 15px 50px 15px;
   text-align: center; }
 
 .question {
@@ -51,7 +51,7 @@
   font-style: italic; }
 
 .field2 {
-  margin-bottom: 50px; }
+  margin-bottom: 70px; }
 
 .btn-cont {
   background-color: #fff; }
