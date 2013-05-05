@@ -33,7 +33,7 @@ var response = new Array ();
 	  response[31] = "Guess what: No!";
 	  response[32] = "Two words for you: No, no!";
 	  response[33] = "Are you fucking stupid?";
-	  response[34] = "You fucking shouldn’t’!";
+	  response[34] = "You fucking shouldnt!";
 
 function answer() {
 

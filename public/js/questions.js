@@ -18,23 +18,22 @@ $(function() {
 			questionA[15] = "I would die to go on a bender with several";
 			questionA[16] = "It would be epic to wash this down with a";
 			questionA[17] = "I wanna get fucking plastered on";
-	  		questionA[18] = "";
-	  		questionA[19] = "";
-	  		questionA[20] = "";
-	  		questionA[21] = "";
-	  		questionA[22] = "";
-	  		questionA[23] = "";
-	  		questionA[24] = "";
-	  		questionA[25] = "";
-	  		questionA[26] = "";
-	  		questionA[27] = "";
-	  		questionA[28] = "";
-	  		questionA[29] = "";
-	  		questionA[30] = "";
-	  		questionA[31] = "";
-	  		questionA[32] = "";
-	  		questionA[33] = "";
-	  		questionA[34] = "";
+	  		questionA[18] = "I want nothing more than";
+	  		questionA[19] = "I'm in need of some";
+	  		questionA[20] = "Bout to take some";
+	  		questionA[21] = "I'd kill for some";
+	  		questionA[22] = "I'm not dying, but I'm dying to take some";
+	  		questionA[23] = "My dreams are full of";
+	  		questionA[24] = "Can't live another minute without drinking";
+	  		questionA[25] = "I would sell my mom just for a sip of";
+	  		questionA[26] = "I’m about to text my ex if I don’t drink a glass of";
+	  		questionA[27] = "Can’t stop looking to a bottle of";
+	  		questionA[28] = "I need to take a fucking sip of";
+	  		questionA[29] = "I’ve been dreaming of a full glass of";
+	  		questionA[30] = "Happiness is a glass full of";
+	  		questionA[31] = "I’m running out of milk, but there’s still a bottle of";
+	  		questionA[32] = "I wanna drown myself in a glass full of";
+	  		questionA[33] = "All I’m asking is for a glass of";
 	
 		var i = Math.floor(Math.random()questionA.length)
 		$('#questionA').html(questionA[i])
@@ -49,6 +48,17 @@ $(function() {
 			questionB[6] = "I wish I wasn't so blitzed on";
 			questionB[7] = "If only I wasn't so out of it on";
 			questionB[8] = "But I'm all fucking amped on";
+			questionA[9] = "But my body's full of";
+			questionB[10] = "But I gotta take";
+			questionB[11] = "Even though I'm on a steady diet of";
+			questionB[12] = "Even though the doctor gave me";
+			questionB[13] = "But I’m fucking taking";
+			questionB[14] = "But the doctor fucked my life prescribing";
+			questionB[15] = "Even though I’m fucking taking";
+			questionB[16] = "But I’m fucked with a prescription of";
+			questionB[17] = "But my life was fucked with a prescription of";
+	  		questionB[18] = "But my life has become hell since I start taking";
+	  		questionB[19] = "But everything is so boring since I start taking";
 	
 		var i = Math.floor(Math.random()*questionB.length)
 		$('#questionB').html(questionB[i])
