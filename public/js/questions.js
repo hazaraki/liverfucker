@@ -1,5 +1,4 @@
 $(function() {
-
 	var questionA = new Array ();
 			questionA[0] = "It’s been a hell of a day, I just need a fucking";
 			questionA[1] = "I’m craving a giant fucking";
@@ -35,10 +34,8 @@ $(function() {
 	  		questionA[31] = "I’m running out of milk, but there’s still a bottle of";
 	  		questionA[32] = "I wanna drown myself in a glass full of";
 	  		questionA[33] = "All I’m asking is for a glass of";
-		
 		var i = Math.floor(Math.random()*questionA.length);
 		$('#questionA').html(questionA[i]);
-	
 	var questionB = new Array ();
 			questionB[0] = "If only I wasn’t jacked up on";
 			questionB[1] = "But I'm all loaded up on";
@@ -60,7 +57,6 @@ $(function() {
 			questionB[17] = "But my life was fucked with a prescription of";
 	  		questionB[18] = "But my life has become hell since I start taking";
 	  		questionB[19] = "But everything is so boring since I start taking";
-		
 		var i = Math.floor(Math.random()*questionB.length);
 		$('#questionB').html(questionB[i]);
 });
