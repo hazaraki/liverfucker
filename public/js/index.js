@@ -46,7 +46,7 @@ $(function() {
 			questionB[6] = "I wish I wasn't so blitzed on";
 			questionB[7] = "If only I wasn't so out of it on";
 			questionB[8] = "But I'm all fucking amped on";
-			questionA[9] = "But my body's full of";
+			questionB[9] = "But my body's full of";
 			questionB[10] = "But I gotta take";
 			questionB[11] = "Even though I'm on a steady diet of";
 			questionB[12] = "Even though the doctor gave me";
@@ -95,7 +95,6 @@ $(function() {
 	  	response[32] = "Two words for you: No, no!";
 	  	response[33] = "Are you fucking stupid?";
 	  	response[34] = "You fucking shouldnt!";
-
 		$('#button').click(function() {
 			if(!$('#formA').val()) {          
 					$('#response').html('Tell us what you want to drink!');
@@ -103,7 +102,8 @@ $(function() {
 				}
 			else if(!$('#formB').val()) {
 					$('#response').html('Tell us what you are taking!'); 
-					$('#formB').addClass('border'); 
+					$('#formB').addClass('border');
+					$('#formA').removeClass('border'); 
 				}
 			else {
 				var i = Math.floor(Math.random()*response.length);
