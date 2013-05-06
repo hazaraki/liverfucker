@@ -1,5 +1,4 @@
 $(function() {
-	$('#button').click(function() {
 		var response = new Array (); 
 	  	response[0] = "Aw Hell Nah!";
 	  	response[1] = "Think again!";
@@ -36,17 +35,21 @@ $(function() {
 	  	response[32] = "Two words for you: No, no!";
 	  	response[33] = "Are you fucking stupid?";
 	  	response[34] = "You fucking shouldnt!";
-		var i = Math.floor(Math.random()*response.length);
-		$('#response').html(response[i]);
-		//if (!document.getElementById("questionA").value){          
-			// document.getElementById("response").innerText = 'Tell us what you want to drink!'; 
-		// }
-		
-		// else if (!document.getElementById("questionB").value) {
-			// document.getElementById("response").innerText = 'Tell us what you are taking!'; 
-		// }
-	
-		// else {
-			// }
+
+	$('#button').click(function() {
+		if(!$('#formA').val()) {          
+				$('#response').html('Tell us what you want to drink!');
+				$('#formA').addClass('border'); 
+			}
+		else if(!$('#formB').val()) {
+				$('#response').html('Tell us what you are taking!'); 
+				$('#formB').addClass('border'); 
+			}
+		else {
+			var i = Math.floor(Math.random()*response.length);
+			$('#response').html(response[i]);
+			$('#formA').removeClass('border'); 
+			$('#formB').removeClass('border'); 
+			}
 		});
 });
