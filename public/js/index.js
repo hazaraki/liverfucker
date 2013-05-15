@@ -95,21 +95,21 @@ $(function() {
 	  	response[32] = "Two words for you: No, no!";
 	  	response[33] = "Are you fucking stupid?";
 	  	response[34] = "You fucking shouldnt!";
-		$('#button').click(function() {
-			if(!$('#formA').val()) {          
-					$('#response').html('Tell us what you want to drink!');
-					$('#formA').addClass('border'); 
-				}
-			else if(!$('#formB').val()) {
-					$('#response').html('Tell us what you are taking!'); 
-					$('#formB').addClass('border');
-					$('#formA').removeClass('border'); 
-				}
-			else {
-				var i = Math.floor(Math.random()*response.length);
-				$('#response').html(response[i]);
-				$('#formA').removeClass('border'); 
-				$('#formB').removeClass('border'); 
-				}
-			});
+	$('#button').click(function() {
+		if(!$('#formA').val()) {          
+			$('#response').html('All work and no play makes jack a dull boy!');
+			$('#formA').addClass('border'); 
+		}
+		else if(!$('#formB').val()) {
+			$('#response').html('Tell us what you want to take!'); 
+			$('#formB').addClass('border');
+			$('#formA').removeClass('border'); 
+		}
+		else {
+		var i = Math.floor(Math.random()*response.length);
+		$('#response').html(response[i]);
+		$('#formA').removeClass('border'); 
+		$('#formB').removeClass('border'); 
+		}
+	});
 });

@@ -4,7 +4,8 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   font-family: "Helvetica Neue", "Helvetica", "Arial", "Sans-serif";
-  margin: 0px 0px 0px 0px; }
+  margin: 0px 0px 0px 0px;
+  text-decoration: none; }
 
 .grey {
   background-color: #323132; }
@@ -56,22 +57,23 @@
 .btn-cont {
   background-color: #fff; }
 
-.social {
-  float: left;
-  margin: 15px 0px 0px 15px; }
-
 .button {
   color: #fff;
   background-color: #ec008b;
   text-decoration: none;
+  text-transform: uppercase;
   font-size: 36px;
   border: 12px solid #fff;
   padding: 20px 20px 20px 20px;
-  min-width: 210px;
-  margin: 0px 0px 0px 54%; }
+  width: 210px;
+  margin: 0px 0px 0px 50%;
+  font-weight: bold; }
 
 .button:hover {
   background-color: #E00286; }
+
+.response-container {
+  height: 190px; }
 
 .response {
   color: #323132;
@@ -82,3 +84,14 @@
 
 .border {
   border: 3px solid #ec008b; }
+
+.question-mark {
+  color: #323132;
+  font-weight: bold;
+  font-size: 24px; }
+
+.question-mark:hover {
+  color: #ec008b; }
+
+.copyright {
+  color: rgba(93, 91, 93, 0.69); }
