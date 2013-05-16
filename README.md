@@ -10,9 +10,9 @@ Open up terminal and type:
 
     gem install rack
 
-Clone the repo and you're ready to go!
+3. Clone the repo.
 
-To run Liverfucker locally, navigate to the liverfucker directory in terminal and type:
+4. To run Liverfucker locally, navigate to the liverfucker directory in terminal and type:
 
     rackup
 
