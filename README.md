@@ -1,6 +1,6 @@
 # Liverfucker
 
-## Installation instructions
+### Installation instructions
 
 1. Make sure you have Ruby 1.9.3 installed.
 
@@ -17,6 +17,8 @@ To run Liverfucker locally, navigate to the liverfucker directory in terminal an
     rackup
 
 Liverfucker will be available on localhost:9292
+
+### Licensing
 
 Copyright © 2013 Hazar Aki, Sean Grimes, Filip Reese
 
