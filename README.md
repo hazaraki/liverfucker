@@ -18,4 +18,4 @@ Liverfucker will be available on localhost:9292
 
 Copyright © 2013 Hazar Aki, Sean Grimes, Filip Reese
 
-All rights to liverfucker content (Copy and media) are reserved. The Source code is free and open source. If you use it for you won decision engine, feel free to share the inspiration in your project and drop mea line to show off what you have used it for.
+All rights to liverfucker content (copy and media) are reserved. The Source code is free and open source. If you use it for you won decision engine, feel free to share the inspiration in your project and drop mea line to show off what you have used it for.
