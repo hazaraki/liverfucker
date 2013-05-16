@@ -12,7 +12,7 @@ Open up terminal and type:
 
 Clone the repo and you're ready to go!
 
-To run Liverfucker locally, navigate to liverfucker directory and type:
+To run Liverfucker locally, navigate to the liverfucker directory in terminal and type:
 
     rackup
 
