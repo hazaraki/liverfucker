@@ -7,12 +7,12 @@
 2. Next, you'll need to install Rack.
 
 Open up terminal and type:
-		gem install rack
+    gem install rack
 
 Clone the repo and you're ready to go!
 
 To run Liverfucker locally, navigate to liverfucker directory and type:
-	rackup
+    rackup
 
 Liverfucker will be available on localhost:9292
 
