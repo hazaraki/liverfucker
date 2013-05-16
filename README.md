@@ -2,12 +2,12 @@
 
 ## Installation instructions
 
-Make sure you have Ruby 1.9.3 installed.
+1. Make sure you have Ruby 1.9.3 installed.
 
-Next, you'll need to install Rack.
+2. Next, you'll need to install Rack.
 
 Open up terminal and type:
-	gem install rack
+		gem install rack
 
 Clone the repo and you're ready to go!
 
