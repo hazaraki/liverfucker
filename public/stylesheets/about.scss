@@ -1,2 +1,33 @@
-/* sass for about */
+body {
+	background-color:#323132;
+}
+
+section {
+	max-width:960px;
+	text-align: center;
+	margin: 30px auto 30px auto;
+}
+
+p {
+	color: #fff;
+	font-size: 16px;
+	font-family: "Helvetica Neue", "Helvetica", "Arial", "Sans-serif";
+	margin: 0px 0px 30px 0px;
+	line-height: 1.6;
+}
+
+iframe {
+	border: 9px solid #fff;
+	margin: 0px 0px 30px 0px;
+
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+a:hover {
+	color:#ec008b;
+}
 
