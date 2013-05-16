@@ -73,6 +73,8 @@
   background-color: #E00286; }
 
 .response-container {
+  margin: auto;
+  width: 90%;
   height: 190px; }
 
 .response {
@@ -85,13 +87,36 @@
 .border {
   border: 3px solid #ec008b; }
 
+footer {
+  margin: 40px 0px 0px 0px;
+  padding-bottom: 40px; }
+
+ul {
+  list-style-type: none; }
+
 .question-mark {
+  width: 25%;
+  display: inline-block;
+  float: left;
   color: #323132;
   font-weight: bold;
-  font-size: 24px; }
+  font-size: 24px;
+  text-align: left; }
 
 .question-mark:hover {
   color: #ec008b; }
 
 .copyright {
-  color: rgba(93, 91, 93, 0.69); }
+  width: 50%;
+  display: inline-block;
+  float: left;
+  color: #ABA8AB; }
+
+.social {
+  width: 25%;
+  display: inline-block;
+  float: left; }
+
+.social-buttons {
+  margin-right: 40px;
+  float: right; }

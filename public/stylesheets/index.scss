@@ -71,6 +71,8 @@ $lightpink: #FAA8C3;
 }
 
 .response-container {
+	margin: auto;
+	width: 90%;
 	height: 190px;
 }
 
@@ -86,21 +88,43 @@ $lightpink: #FAA8C3;
 	border: 3px solid $pink; 
 }
 
-.question-mark {
-	color:$grey;
-	font-weight: bold;
-	font-size: 24px;
+footer {
+	margin: 40px 0px 0px 0px;
+	padding-bottom:40px;
 }
 
-.question-mark:hover{
-	color:$pink;
+ul {
+	list-style-type:none;
+}
+
+.question-mark {
+	width:25%;
+	display:inline-block;
+	float:left;
+	color: $grey;
+	font-weight: bold;
+	font-size: 24px;
+	text-align: left;
+}
+
+.question-mark:hover {
+	color: $pink;
 }
 
 .copyright {
-	color: rgba(93, 91, 93, 0.69);
+	width:50%;
+	display:inline-block;
+	float:left;
+	color: #ABA8AB;
 }
 
+.social {
+	width:25%;
+	display:inline-block;
+	float:left;
+}
 
-
-
-
+.social-buttons {
+	margin-right:40px;
+	float:right;
+}
