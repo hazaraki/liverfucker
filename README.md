@@ -18,7 +18,7 @@ To run Liverfucker locally, navigate to the liverfucker directory in terminal an
 
 Liverfucker will be available on localhost:9292
 
-### Licensing
+### License
 
 Copyright © 2013 Hazar Aki, Sean Grimes, Filip Reese
 
