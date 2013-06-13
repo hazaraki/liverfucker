@@ -1,5 +1,7 @@
 $(function() {
+	
 	var questionA = new Array ();
+			
 			questionA[0] = "It’s been a hell of a day, I just need a fucking";
 			questionA[1] = "I’m craving a giant fucking";
 			questionA[2] = "I think it’s time to get fucked up on";
@@ -34,8 +36,11 @@ $(function() {
 	  		questionA[31] = "I’m running out of milk, but there’s still a bottle of";
 	  		questionA[32] = "I wanna drown myself in a glass full of";
 	  		questionA[33] = "All I’m asking is for a glass of";
+		
 		var i = Math.floor(Math.random()*questionA.length);
+		
 		$('#questionA').html(questionA[i]);
+	
 	var questionB = new Array ();
 			questionB[0] = "If only I wasn’t jacked up on";
 			questionB[1] = "But I'm all loaded up on";
@@ -57,8 +62,11 @@ $(function() {
 			questionB[17] = "But my life was fucked with a prescription of";
 	  		questionB[18] = "But my life has become hell since I start taking";
 	  		questionB[19] = "But everything is so boring since I start taking";
+		
 		var i = Math.floor(Math.random()*questionB.length);
+		
 		$('#questionB').html(questionB[i]);
+	
 	var response = new Array (); 
 	  	response[0] = "Aw Hell Nah!";
 	  	response[1] = "Think again!";
@@ -95,21 +103,61 @@ $(function() {
 	  	response[32] = "Two words for you: No, no!";
 	  	response[33] = "Are you fucking stupid?";
 	  	response[34] = "You fucking shouldnt!";
+		response[35] = "There’s only two people who can handle this combination and one of them is not you (the other is not you either)."
+		response[36] = "No. Five times no. Then multiply that by 45 and add 4 million.  That’s how many no’s."
+		response[37] = "Yes, if you want your liver to inflate to the size of a elephant head. Otherwise, no."
+		response[38] = "No, you stupid, stupid sub-human."
+		response[39] = "First I’d say you need a hug, then I’d slap you for being stupid. "
+		response[40] = "On. That’s backwards for no."
+		response[41] = "No. And by no I mean no. Not yes. Yes doesn’t mean no. No means no."
+		response[41] = "You’re what’s wrong with America."
+		response[43] = "You can’t spell moron without “no”."
+		response[44] = "Let me think…still thinking….one minute…ok, no."
+		response[45] = "I want the worst for you, but the answer is still no."
+		response[46] = "What kind of stupidity do you have floating in your brain."
+		response[47] = "I know you want me to say yes, so I’m going to say no."
+		response[48] = "I know you want me to say yes, but that would make me look like the idiot."
+		response[49] = "Yes…wait…no!"
+		response[50] = "Shame on you!"
+		response[51] = "Do I really have to tell you how bad of an idea that is?"
+		response[52] = "Such a combination would end in hilariously fatal results."
+		response[53] = "Stop what you’re doing and rethink your life up to this point."
+	
+
 	$('#button').click(function() {
+		
 		if(!$('#formA').val()) {          
+			
 			$('#response').html('All work and no play makes jack a dull boy!');
+
 			$('#formA').addClass('border'); 
 		}
+		
 		else if(!$('#formB').val()) {
+			
 			$('#response').html('Tell us what you want to take!'); 
+			
 			$('#formB').addClass('border');
+			
 			$('#formA').removeClass('border'); 
+
 		}
+		
 		else {
-		var i = Math.floor(Math.random()*response.length);
-		$('#response').html(response[i]);
-		$('#formA').removeClass('border'); 
-		$('#formB').removeClass('border'); 
+
+			$("a[href='#']").attr('href', '#response');
+
+			$('html, body').animate({scrollTop: $("#response").offset().top}, 1000);
+
+			$('#formA').removeClass('border'); 
+			
+			$('#formB').removeClass('border'); 	
+		
+			var i = Math.floor(Math.random()*response.length);
+			
+			$('#response').html(response[i]);
+
+			return false;
 		}
 	});
 });
