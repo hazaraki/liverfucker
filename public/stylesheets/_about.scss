@@ -1,14 +1,14 @@
-body {
+.a-body {
 	background-color:#323132;
 }
 
-section {
+.a-section {
 	max-width:1000px;
 	text-align: center;
 	margin: 70px auto 30px auto;
 }
 
-p {
+.a-p {
 	letter-spacing:.05em;
 	color: #fff;
 	font-size: 18px;
@@ -17,18 +17,22 @@ p {
 	line-height: 1.4;
 }
 
-iframe {
+.a-iframe {
 	border: 9px solid #fff;
 	margin: 0px 0px 30px 0px;
 
 }
 
-a {
+.a-a {
 	color: #fff;
 	text-decoration: none;
 }
 
-a:hover {
+.a-a:hover {
 	color:#ec008b;
+}
+
+.home-link {
+	margin-top: 65px;
 }
 

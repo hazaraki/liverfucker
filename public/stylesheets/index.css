@@ -1,4 +1,8 @@
-/* Basic resets */
+/* All styles imported here 
+
+LIVERFUCKER 2013
+
+*/
 * {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -120,3 +124,33 @@ ul {
 .social-buttons {
   margin-right: 40px;
   float: right; }
+
+.a-body {
+  background-color: #323132; }
+
+.a-section {
+  max-width: 1000px;
+  text-align: center;
+  margin: 70px auto 30px auto; }
+
+.a-p {
+  letter-spacing: .05em;
+  color: #fff;
+  font-size: 18px;
+  font-family: "Helvetica Neue", "Helvetica", "Arial", "Sans-serif";
+  margin: 0px 0px 30px 0px;
+  line-height: 1.4; }
+
+.a-iframe {
+  border: 9px solid #fff;
+  margin: 0px 0px 30px 0px; }
+
+.a-a {
+  color: #fff;
+  text-decoration: none; }
+
+.a-a:hover {
+  color: #ec008b; }
+
+.home-link {
+  margin-top: 65px; }
