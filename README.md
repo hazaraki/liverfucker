@@ -1,15 +1,27 @@
 # Liverfucker
 
-## Installation instructions
+### Installation instructions
 
-Make sure you have Ruby 1.9.3
+1. Make sure you have Ruby 1.9.3 installed.
 
-Next, open up terminal and run install the 'rack' gem:
-	gem install rack
+2. Next, you'll need to install Rack.
 
-To run Liverfucker locally, navigate to liverfucker directory and type:
-	rackup
+Open up terminal and type:
+
+    gem install rack
+
+3. Clone the repo:
+    
+    git clone git@github.com:hazaraki/liverfucker.git
+
+4. To run Liverfucker locally, navigate to the liverfucker directory in terminal and type:
+
+    rackup
 
 Liverfucker will be available on localhost:9292
 
-Copyright © 2013 Hazar Aki,  
+### License
+
+Copyright © 2013 Hazar Aki, Sean Grimes, Filip Reese
+
+All rights to liverfucker content (copy and media) are reserved. Source code is free and open source. If you use it for you own decision engine, feel free to share us as inspiration for your project and drop me line to show off what you it for.
